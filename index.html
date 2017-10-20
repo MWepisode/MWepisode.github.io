@@ -1,4 +1,4 @@
-<iframe src="https://streamguard.cc/serial/dfe050775958ea0a5055ea424f254621/iframe?season=2" width="610" height="370" frameborder="0" allowfullscreen></iframe>
+<iframe src="" width="610" height="370" frameborder="0" allowfullscreen></iframe>
 <script>
       function onPlayerEpisodeSelected(episode_data) {
     console.log('onPlayerEpisodeSelected', episode_data);
@@ -13,5 +13,6 @@
   window.addEventListener('DOMContentLoaded', function() {
     console.log('DOMContentLoaded');
     window.addEventListener('message', mwPlayerMessageReceive);
+        document.querySelector('iframe').src = 'https://streamguard.cc/serial/dfe050775958ea0a5055ea424f254621/iframe?season=2';
   });
 </script>
