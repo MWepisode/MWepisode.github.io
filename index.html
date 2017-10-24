@@ -9,8 +9,6 @@
       onPlayerEpisodeSelected(event.data.value);
     }
   }
-
-  window.addEventListener('DOMContentLoaded', function() {
-        setTimeout(function(){window.addEventListener('message', mwPlayerMessageReceive);}, 3000);
-  });
+  
+  window.addEventListener('message', mwPlayerMessageReceive);
 </script>
